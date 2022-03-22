@@ -1,0 +1,89 @@
+header{
+  background-color: blue;
+  color: white;
+}
+.align-self{
+  align-self: center;
+}
+.text-center{
+  text-align: center;
+}
+.bar{
+  align-self: center;
+  background-color: lightblue;
+  width: 100%;
+  height: 1em
+}
+.p-2{
+  padding: 2em;
+}
+.m-2{
+  margin: 2em;
+}
+footer{
+  background-color: blue;
+}
+
+@media (min-width: 1000px){
+  img{
+    max-width: 75%;
+  }
+  .d-flex{
+    display: flex;
+  }
+  .columns{
+    flex-direction: column;
+  }
+  .sidebar{
+    max-width: 30%;
+    margin-top: 4em;
+    margin-bottom: 4em;
+  }
+  .article{
+    max-width: 75%;
+    max-height: min-content;
+  }
+  .details{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .container{
+    width: 80%;
+    align-self: center;
+  }
+  
+}  
+
+@media (max-width: 1000px) {
+  img{
+    max-width: 10em;
+    margin-bottom: 2em;
+  }
+  .m-flex{
+    display: flex;
+  }
+  .mobile-rows{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 2em;
+  }
+  .mobile-article{
+    max-width: 75%;
+    max-height: min-content;
+    align-self: center;
+  }
+  .mobile-details{
+    text-align: left;
+    padding-right: 2em;
+    align-self: center;
+  }
+  .mobile-container{
+    margin-left: 0%;
+  }
+  a{
+    padding-right: 1em;
+    align-self: center;
+  }
+}
+
